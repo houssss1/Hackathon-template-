@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="An innovative hackathon project showcasing a creative solution to a real-world problem." />
+  <meta name="theme-color" content="#2563eb" />
+  <title>Hackathon Project</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%232563eb'/><text x='50' y='70' font-size='70' font-weight='bold' text-anchor='middle' fill='white'>H</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div class="content">
+      <h1>Your Project Title</h1>
+      <p>A clear and simple sentence explaining your idea.</p>
+      <a href="#problem" class="next" aria-label="Scroll to problem section">↓</a>
+    </div>
+  </header>
+
+  <!-- PROBLEM -->
+  <section id="problem">
+    <div class="content">
+      <div class="section-number">01 — PROBLEM</div>
+      <h2>The Problem</h2>
+      <p>Describe the real problem in simple human terms.</p>
+      <a href="#solution" class="next" aria-label="Scroll to solution section">↓</a>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section id="solution">
+    <div class="content">
+      <div class="section-number">02 — SOLUTION</div>
+      <h2>Our Solution</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Feature One</h3>
+          <p>Short explanation of this feature.</p>
+        </div>
+        <div class="card">
+          <h3>Feature Two</h3>
+          <p>Short explanation of this feature.</p>
+        </div>
+        <div class="card">
+          <h3>Feature Three</h3>
+          <p>Short explanation of this feature.</p>
+        </div>
+      </div>
+
+      <a href="#impact" class="next" aria-label="Scroll to impact section">↓</a>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section id="impact">
+    <div class="content">
+      <div class="section-number">03 — IMPACT</div>
+      <h2>Impact</h2>
+      <p>Who benefits and why our solution creates real change.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Target Users</h3>
+          <p>
+            who we built this solution for.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Expected Outcomes</h3>
+          <p>
+            we'll only need to give numbers to impress.
+          </p>
+        </div>
+      </div>
+
+      <a href="#contact" class="next" aria-label="Scroll to contact section">↓</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="content">
+      <div class="section-number">04 — CONTACT</div>
+      <h2>Contact Us</h2>
+      <p>Leave your email and message and we’ll get back to you.</p>
+
+      <form
+        class="form"
+        id="contactForm"
+        action="https://formspree.io/f/FORM_ID"
+        method="POST"
+      >
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+        <div id="formMessage" class="form-message" style="display: none;"></div>
+      </form>
+
+      <a href="#footer" class="next" aria-label="Scroll to footer section">↓</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="content">
+      <h2>Hackathon Project</h2>
+      <p>Team Name • 2025</p>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="js/script.js"></script>
+</html>
